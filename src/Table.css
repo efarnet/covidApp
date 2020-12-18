@@ -1,0 +1,38 @@
+.classement {
+
+    overflow: scroll;
+    height: 900px;
+    margin: 0 20px;
+}
+
+
+
+.classement h2 {
+
+    margin: 20px 0;
+    font-style: italic;
+    color: silver;
+}
+
+
+.itemCountry {
+
+    font-style: italic;
+    color: silver;
+
+}
+
+.itemActive {
+
+    font-weight: bold;
+}
+
+.tableContainer {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+   
+    
+}
+

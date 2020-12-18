@@ -1,0 +1,30 @@
+* {
+
+  margin: 0;
+}
+
+.global-container {
+  display: flex;
+}
+
+.main-content {
+
+    width: 70%;
+    height: 100%;
+    
+}
+
+.sidebar {
+  
+  width: 30%;
+  height: 100%;
+}
+
+.header-container {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 239, 239);
+
+}

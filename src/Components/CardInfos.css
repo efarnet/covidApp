@@ -1,0 +1,57 @@
+.card-container {
+
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.card-item {
+    text-align: center;
+    height: 60%;
+    width: 180px;
+    background-color:ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 17px 17px 28px -5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 17px 17px 28px -5px rgba(0,0,0,0.49);
+    box-shadow: 17px 17px 28px -5px rgba(0,0,0,0.49);
+    border-radius: 20px;
+    
+}
+
+.card-item h2 {
+
+    font-size: 15px;
+    color: silver;
+    
+}
+
+.cases  {
+
+    font-size: 35px;
+    color: red;
+    
+}
+
+.deaths {
+    
+    font-size: 35px;
+    color: red;
+
+}
+
+.recovered {
+    font-size: 35px;
+    color: rgb(58, 192, 64);
+}
+
+span {
+    font-style: italic;
+    color: silver;
+}
